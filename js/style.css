@@ -1,0 +1,11 @@
+.deleteBtns {
+  opacity: 0;
+  transition: 0.3s;
+}
+.doneBtns {
+  opacity: 0;
+  transition: 0.3s;
+}
+.trs:hover .deleteBtns .doneBtns {
+  opacity: 1;
+}
